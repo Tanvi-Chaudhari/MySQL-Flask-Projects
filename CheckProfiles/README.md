@@ -1,5 +1,3 @@
-<!-- PROJECT SETUP GUIDE -->
-
 # Project Setup Guide
 
 This guide will help you set up and run the project successfully. Please follow the steps below:
