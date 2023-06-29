@@ -27,13 +27,19 @@ This guide will help you set up and run the project successfully. Please follow 
 
 6. In the 'flaskapp' database, create a table named 'accounts' with the following schema:
     ```sql
-    CREATE TABLE IF NOT EXISTS `accounts` (
+    CREATE TABLE IF NOT EXISTS `accounts1` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
       `username` varchar(50) NOT NULL,
       `password` varchar(255) NOT NULL,
       `email` varchar(100) NOT NULL,
+      `organisation` varchar(100) NOT NULL,
+      `address` varchar(100) NOT NULL,
+      `city` varchar(100) NOT NULL,
+      `state` varchar(100) NOT NULL,
+      `country` varchar(100) NOT NULL,
+      `postalcode` varchar(100) NOT NULL,
       PRIMARY KEY(`id`)
-    ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8; 
+    ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8; 
     ```
    For a better understanding of steps 5 and 6, you can watch this [video tutorial](https://www.youtube.com/watch?v=Ufb8KMikNF8).
 
@@ -41,10 +47,12 @@ This guide will help you set up and run the project successfully. Please follow 
     ```shell
     flask run
     ```
-   If you are using PyCharm, you can also run the `app.py` file directly.
+   If you are using PyCharm, you can also run the `main.py` file directly.
 
 8. Open a web browser and navigate to `http://localhost:5000` to see the project in action. The application should look similar to the screenshots below:
 
-   ![Screenshot (496)](https://github.com/Tanvi-Chaudhari/MySQL-Projects/assets/75910333/700ddeab-784a-431c-992c-3581f86da973)
-   ![Screenshot (497)](https://github.com/Tanvi-Chaudhari/MySQL-Projects/assets/75910333/a02ea54c-0ada-4c5c-8514-1498eb0fced1)
-   ![Screenshot (498)](https://github.com/Tanvi-Chaudhari/MySQL-Projects/assets/75910333/cddcf8f4-455f-4ee6-9972-585ddade7633)
+![Screenshot (499)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/17b53930-8ba6-462c-909d-8e69ace753d0)
+![Screenshot (500)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/b1cc6967-49d2-4201-9bbd-74d91493e01f)
+![Screenshot (501)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/17ef5e01-8bdb-4ca8-beb4-f5700f344525)
+![Screenshot (502)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/ec14783e-c0c3-4796-9461-69ecc30d1a25)
+![Screenshot (503)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/de5ec40c-5752-41a1-bf3f-76696a6bad07)
