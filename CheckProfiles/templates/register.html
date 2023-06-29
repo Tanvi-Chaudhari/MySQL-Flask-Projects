@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Register </title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<style>
+    body{
+        background-image: url(https://rare-gallery.com/mocahbig/451879-purple-sky-wires-sky-city-power-lines-pink.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+<body>
+<div class="registercontent">
+    <div class="registertop">
+        <h1>Register</h1>
+    </div>
+    <form action="{{ url_for('register')}}" method="post" autocomplete="off">
+        <div class="msg">{{ msg }}</div>
+        <div class="registerbottom">
+            <input type="text" name="username" placeholder="Enter Your Username" required>
+            <input type="password" name="password" placeholder="Enter Your Password" required>
+            <input type="email" name="email" placeholder="Enter Your Email ID" required>
+            <input type="text" name="organisation" placeholder="Enter Your Organisation" required>
+            <input type="text" name="address" placeholder="Enter Your Address" required>
+            <input type="text" name="city" placeholder="Enter Your City" required>
+            <input type="text" name="state" placeholder="Enter Your State" required>
+            <input type="text" name="country" placeholder="Enter Your Country" required>
+            <input type="text" name="postalcode" placeholder="Enter Your Postal Code" required>
+        </div>
+        <div class="registerbutton"><input type="submit" class="btn" value="Register"></div>
+    </form>
+    <p class="worddark">Already have an account? <a class="worddark" href="{{ url_for('login')}}">Login here</a></p>
+</div>
+</body>
+</html>
