@@ -47,7 +47,8 @@ This guide will help you set up and run the project successfully. Please follow 
 
 8. Open a web browser and navigate to `http://localhost:5000` to see the project in action. The application should look similar to the screenshots below:
 
-   ![Screenshot (496)](https://github.com/Tanvi-Chaudhari/MySQL-Projects/assets/75910333/700ddeab-784a-431c-992c-3581f86da973)
-   ![Screenshot (497)](https://github.com/Tanvi-Chaudhari/MySQL-Projects/assets/75910333/a02ea54c-0ada-4c5c-8514-1498eb0fced1)
-   ![Screenshot (498)](https://github.com/Tanvi-Chaudhari/MySQL-Projects/assets/75910333/cddcf8f4-455f-4ee6-9972-585ddade7633)
+![Screenshot (496)](https://github.com/Tanvi-Chaudhari/MySQL-Flask-Projects/assets/75910333/da97b8d9-9b9d-4379-a5f0-806c85702e5c)
+![Screenshot (497)](https://github.com/Tanvi-Chaudhari/MySQL-Flask-Projects/assets/75910333/f4b7f12b-7e9d-4760-b7bf-3bba0402bb3d)
+![Screenshot (498)](https://github.com/Tanvi-Chaudhari/MySQL-Flask-Projects/assets/75910333/aa9371e8-424d-4bd9-ac15-c50ff6b13e28)
+
 
