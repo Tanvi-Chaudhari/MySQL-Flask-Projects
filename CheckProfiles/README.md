@@ -51,8 +51,4 @@ This guide will help you set up and run the project successfully. Please follow 
 
 8. Open a web browser and navigate to `http://localhost:5000` to see the project in action. The application should look similar to the screenshots below:
 
-![Screenshot (499)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/17b53930-8ba6-462c-909d-8e69ace753d0)
-![Screenshot (500)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/b1cc6967-49d2-4201-9bbd-74d91493e01f)
-![Screenshot (501)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/17ef5e01-8bdb-4ca8-beb4-f5700f344525)
-![Screenshot (502)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/ec14783e-c0c3-4796-9461-69ecc30d1a25)
-![Screenshot (503)](https://github.com/Tanvi-Chaudhari/Trial-Projects/assets/75910333/de5ec40c-5752-41a1-bf3f-76696a6bad07)
+
