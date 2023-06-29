@@ -1,0 +1,59 @@
+           .header{
+                padding: 5px 120px;
+                width: 150px;
+                height: 70px;
+                background-color: #1c2541;
+                color: #ffffff;
+            }
+           body{
+                background-color: 5bc0be;
+           }
+            .border{
+                padding: 80px 50px;
+                width: 400px;
+                height: 450px;
+                border-radius: 0px;
+                background-color: #0b132b;
+            }
+ 
+            .btn {
+                padding: 10px 40px;
+                background-color:#1c2541;
+                color: #FFFFFF;
+                font-style: oblique;
+                font-family: Ysabeau Office;
+            }
+ 
+            .textbox{
+                padding: 10px 40px;
+                background-color: #1c2541;
+                color: white;
+                border-radius: 10px;
+                font-family: Ysabeau Office;
+            }
+                 
+            ::placeholder {
+                color: #FFFFFF;
+                opacity: 1;
+                font-style: oblique;
+                font-family: Ysabeau Office;
+            }
+ 
+          .word{
+                color: #FFFFFF;
+                font-weight: bold;
+                font-family: Ysabeau Office;
+            }
+ 
+          .bottom{
+                color: 5bc0be;
+                font-weight: bold;
+                font-family: Ysabeau Office;
+          }
+
+          .msg{
+               font-size: 0.7em;
+               color: red;
+               padding-bottom: 10px;
+
+          }
